@@ -8,7 +8,7 @@ The "Predictive Modeling for Food Delivery Times" project aims to harness the po
 ## File Descriptions
 - `README.md`: Project description and instructions.
 - `food_order.csv`: Dataset containing order details.
-- `Delivery_Time_Prediction.ipynb`: Jupyter notebook with full analysis.
+- `SC1015_Group9_MiniProject.ipynb`: Jupyter notebook with full analysis.
 
 ## Methodology
 ### Data Preprocessing
