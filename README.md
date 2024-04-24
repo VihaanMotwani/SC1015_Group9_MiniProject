@@ -16,7 +16,7 @@ The project follows these key steps:
 - **Data Cleaning and Preprocessing:** Handling missing values, converting data types, and normalizing text data.
 - **Feature Engineering:** Deriving new features to improve model performance such as calculating the age of the cars.
 - **Model Development:** Several regression models were trained and evaluated:
-  - **Linear Regression** 
+  - **Linear Regression** - used to predict the value of a variable based on the value of another variable.
   - **Elastic Net Regression** - a type of regularized linear regression that combines both L1 and L2 regularization.
   - **Random Forest Regressor** - a powerful machine learning algorithm that's widely used for structured or tabular data.
   - **Gradient Boosting Regressor** -  the scikit-learn library has been used for a regression task.
