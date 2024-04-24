@@ -27,9 +27,10 @@ The project follows these key steps:
 The models displayed varying degrees of accuracy, with ensemble methods like Random Forest and Gradient Boosting generally performing better in terms of lower error metrics and higher R-squared values. The detailed analysis of each model provides insights into the suitability of each regression technique based on the dataset's characteristics.
 
 ## Contributions
-- **Vihaan Motwani:** Focused on feature engineering and data visualization. Implemented and tuned machine learning models.
-- **Riddham Agarwal:** Conducted result analysis and prepared the final presentation.
-- **Aaditya Gunda:** Led data cleaning and preprocessing.
+- **Vihaan Motwani
+- **Riddham Agarwal
+- **Aaditya Gunda
+- Everyone contributed equally.
 
 ## References
 - Python documentation: https://www.python.org/doc/
