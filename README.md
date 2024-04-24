@@ -16,7 +16,6 @@ The project follows these key steps:
 - **Data Cleaning and Preprocessing:** Handling missing values, converting data types, and normalizing text data.
 - **Feature Engineering:** Deriving new features to improve model performance such as calculating the age of the cars.
 - **Model Development:** Several regression models were trained and evaluated:
-  - **Linear Regression** - used to predict the value of a variable based on the value of another variable.
   - **Elastic Net Regression** - a type of regularized linear regression that combines both L1 and L2 regularization.
   - **Random Forest Regressor** - a powerful machine learning algorithm that's widely used for structured or tabular data.
   - **Gradient Boosting Regressor** -  the scikit-learn library has been used for a regression task.
@@ -25,7 +24,20 @@ The project follows these key steps:
 - **Evaluation:** Models were assessed based on Mean Absolute Error, Mean Squared Error, Root Mean Squared Error, and R-squared values.
 
 ## Results
-The models displayed varying degrees of accuracy, with ensemble methods like Random Forest and Gradient Boosting generally performing better in terms of lower error metrics and higher R-squared values. The detailed analysis of each model provides insights into the suitability of each regression technique based on the dataset's characteristics.
+The models displayed varying degrees of accuracy, with ensemble methods like Random Forest and Gradient Boosting generally performing better in terms of lower error metrics and higher R-squared values. 
+Among these models, the GradientBoosting Model exhibits the best overall performance:
+It has the highest R-squared value (0.936), indicating it explains about 93.6% of the variance in car prices, which is superior compared to the other models.
+It also shows the lowest values in MSE and RMSE, suggesting that its predictions are closest to the actual data points.
+The MAE is slightly higher than the Random Forest model but still lower than the XGBoost and Elastic Net Models.
+
+## Conclusion
+In conclusion, our project successfully developed a predictive model that can estimate used car prices with high accuracy. This model can help automate pricing predictions for online platforms, contributing to more transparent and fair pricing in the used car market.
+
+Through our analysis, we discovered that factors such as the car’s brand, engine size, and the type of fuel significantly influence its price. For example, diesel cars generally have higher resale values than petrol cars.
+Based on these insights, we recommend that sellers focus on highlighting these features in their listings. For buyers, we suggest considering the total cost of ownership, not just the sticker price.
+
+## Future Possibilities
+For future work, we plan to incorporate additional data, such as location and individual seller ratings, to further refine our predictions. We also intend to deploy our model in a web application to make it accessible to a broader audience.
 
 ## Contributions
 - **Vihaan Motwani:** Focused on feature engineering and data visualization. Implemented and tuned machine learning models.
