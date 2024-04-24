@@ -1,35 +1,37 @@
-# SC1015_FCSB_Group9_MiniProject
+# SC1015 FCSB GROUP 9 MINI PROJECT
 
-# Project Title: Predictive Modeling for Food Delivery Times
+# Car Price Prediction Analysis
 
-## Project Overview
-The "Predictive Modeling for Food Delivery Times" project aims to harness the power of machine learning to provide accurate predictions for food delivery times. By leveraging historical data on food orders, this project seeks to address common customer pain points regarding uncertain delivery times, thereby enhancing the overall customer experience.
+## Overview
+This repository contains all the necessary code and datasets used in the SC1015 mini project conducted by Group 9. The project focuses on predicting car prices using various machine learning models. The analysis is performed in a Jupyter Notebook which allows for a detailed step-by-step exploration of data preprocessing, feature engineering, model building, and evaluation.
 
-## File Descriptions
-- `README.md`: Project description and instructions.
-- `food_order.csv`: Dataset containing order details.
-- `SC1015_Group9_MiniProject.ipynb`: Jupyter notebook with full analysis.
+## Dataset
+The dataset used in this project, titled `Car details v3.csv`, includes multiple features such as car name, year, mileage, engine, max_power, and selling price. This data is vital for building regression models to estimate car prices based on their characteristics.
 
 ## Methodology
-### Data Preprocessing
-- Data cleaning steps, handling missing values, encoding categorical variables, and splitting the data into training and test sets.
-
-### Exploratory Data Analysis
-- Conducted an in-depth analysis to uncover patterns, outliers, and correlations between the various features and the target variable.
-
-### Feature Engineering
-- Constructed new features that better capture the complexities and nuances of the data, thus providing our models with more information for making accurate predictions.
-
-### Model Building and Evaluation
-- Developed multiple regression models and evaluated them, with hyperparameter tuning performed using cross-validation techniques. Model performance was assessed using metrics such as RMSE and MAE.
+The project follows these key steps:
+- **Data Cleaning and Preprocessing:** Handling missing values, converting data types, and normalizing text data.
+- **Feature Engineering:** Deriving new features to improve model performance such as calculating the age of the cars.
+- **Model Development:** Several regression models were trained and evaluated:
+  - **Linear Regression**
+  - **Elastic Net Regression**
+  - **Random Forest Regressor**
+  - **Gradient Boosting Regressor**
+  - **XGBoost Regressor**
+- **Evaluation:** Models were assessed based on Mean Absolute Error, Mean Squared Error, Root Mean Squared Error, and R-squared values.
 
 ## Results
-- A summary of model performance, highlighting the most accurate model and discussing the potential real-world applicability of the predictions.
+The models displayed varying degrees of accuracy, with ensemble methods like Random Forest and Gradient Boosting generally performing better in terms of lower error metrics and higher R-squared values. The detailed analysis of each model provides insights into the suitability of each regression technique based on the dataset's characteristics.
 
-## Discussion
-- Interpretation of results, limitations of the current approach, and potential areas for future research and development to improve prediction accuracy.
+## Contributions
+- **Vihaan Motwani:** Focused on feature engineering and data visualization. Implemented and tuned machine learning models.
+- **Riddham Agarwal:** Conducted result analysis and prepared the final presentation.
+- **Aaditya Gunda:** Led data cleaning and preprocessing.
 
-## Contributors
-- Vihaan Motwani
-- Riddham Agarwal
-- Aaditya Gunda
+## References
+- Python documentation: https://www.python.org/doc/
+- Scikit-learn library: https://scikit-learn.org
+- XGBoost official documentation: https://xgboost.readthedocs.io
+- Pandas documentation: https://pandas.pydata.org/pandas-docs/stable/
+- Matplotlib documentation: https://matplotlib.org/
+- Seaborn documentation: https://seaborn.pydata.org/
