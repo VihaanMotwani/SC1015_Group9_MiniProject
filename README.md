@@ -3,7 +3,7 @@
 # Car Price Prediction Analysis
 
 ## Overview
-This repository contains all the necessary code and datasets used in the SC1015 mini project conducted by Group 9. The project focuses on predicting car prices using various machine learning models. The analysis is performed in a Jupyter Notebook which allows for a detailed step-by-step exploration of data preprocessing, feature engineering, model building, and evaluation. 
+This repository contains all the necessary code and datasets used in the SC1015 mini project conducted by Group 9. This project focuses on predicting car prices using various machine learning models. The analysis is performed in a Jupyter Notebook which allows for a detailed step-by-step exploration of data preprocessing, feature engineering, model building, and evaluation. 
 
 ## Problem Statement 
 The objective is to construct a robust predictive model that estimates the selling price of used cars. This model will consider various car attributes such as the year of make (age), kilometers driven, fuel type, transmission type, and detailed ownership history (first owner, second owner, etc.). The aim is to leverage machine learning algorithms that can accurately predict prices based on these attributes, helping buyers and sellers achieve fair market value transactions.
