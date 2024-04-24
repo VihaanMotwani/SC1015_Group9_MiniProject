@@ -16,21 +16,21 @@ The project follows these key steps:
 - **Data Cleaning and Preprocessing:** Handling missing values, converting data types, and normalizing text data.
 - **Feature Engineering:** Deriving new features to improve model performance such as calculating the age of the cars.
 - **Model Development:** Several regression models were trained and evaluated:
-  - **Linear Regression**
-  - **Elastic Net Regression**
-  - **Random Forest Regressor**
-  - **Gradient Boosting Regressor**
-  - **XGBoost Regressor**
+  - **Linear Regression** 
+  - **Elastic Net Regression** - a type of regularized linear regression that combines both L1 and L2 regularization.
+  - **Random Forest Regressor** - a powerful machine learning algorithm that's widely used for structured or tabular data.
+  - **Gradient Boosting Regressor** -  the scikit-learn library has been used for a regression task.
+  - **XGBoost Regressor** - a machine learning technique that builds an additive model in a forward stage-wise fashion. It allows for the optimization of arbitrary differentiable loss functions.
+    
 - **Evaluation:** Models were assessed based on Mean Absolute Error, Mean Squared Error, Root Mean Squared Error, and R-squared values.
 
 ## Results
 The models displayed varying degrees of accuracy, with ensemble methods like Random Forest and Gradient Boosting generally performing better in terms of lower error metrics and higher R-squared values. The detailed analysis of each model provides insights into the suitability of each regression technique based on the dataset's characteristics.
 
 ## Contributions
-- **Vihaan Motwani
-- **Riddham Agarwal
-- **Aaditya Gunda
-- Everyone contributed equally.
+- **Vihaan Motwani**
+- **Riddham Agarwal**
+- **Aaditya Gunda**
 
 ## References
 - Python documentation: https://www.python.org/doc/
